@@ -31,7 +31,7 @@ function Footer() {
                         </a>
 
                         <a href="#!" className="border rounded-full lg:pl-4 lg:pr-4 lg:pt-3 lg:pb-2 pr-2.5 pl-2.5 pt-2 ">
-                            <img src={facebook} className="" />
+                            <img src={facebook} />
                         </a>
                         <a href="#!" className="border rounded-full lg:p-3 p-2 ">
                             <img src={linkedin} />
