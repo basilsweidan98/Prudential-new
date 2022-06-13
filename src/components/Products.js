@@ -1,6 +1,4 @@
 import React from 'react'
-import helthrisk from '../images/helthrisk.png';
-import lifeexpec from '../images/lifeexpec.png';
 import analysis from '../images/analysis.png'
 function Products() {
     return (

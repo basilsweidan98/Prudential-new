@@ -25,15 +25,15 @@ function Footer() {
                     <div className="grow text-left text-white text-2xl  rounded-md  font-medium">
                         <img src={logo} alt="prudential logo" className=' lg:w-40 md:w-40 lg:pl-3 w-32' />
                     </div>
-                    <div className="flex space-x-2 mt-5  pl-3 ">
-                        <a href="#!" className="border rounded-full p-2 ">
+                    <div className="flex space-x-2 mt-5  pl-3 w-36 lg:w-40">
+                        <a href="#!" className="border rounded-full lg:p-3 p-2 ">
                             <img src={twitt} />
                         </a>
 
-                        <a href="#!" className="border rounded-full p-2 ">
-                            <img src={facebook} />
+                        <a href="#!" className="border rounded-full lg:pl-4 lg:pr-4 lg:pt-3 lg:pb-2 pr-2.5 pl-2.5 pt-2 ">
+                            <img src={facebook} className="" />
                         </a>
-                        <a href="#!" className="border rounded-full p-2 ">
+                        <a href="#!" className="border rounded-full lg:p-3 p-2 ">
                             <img src={linkedin} />
                         </a>
 
