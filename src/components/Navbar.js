@@ -2,9 +2,9 @@ import React from 'react';
 import logo from '../images/logo.png'
 function Navbar() {
     return (
-        <div className="flex  lg:mr-10 ">
+        <div className="flex  lg:mr-7 ">
             <a href='#' className='grow  lg:ml-10 md:ml-8 ml-5 pt-7 '>
-                <img src={logo} alt="prudential logo" className=' w-28 lg:w-44 md:w-32' />
+                <img src={logo} alt="prudential logo" className=' w-28 lg:w-44 md:w-32 ' />
 
             </a>
             <nav class=" px-2 sm:px-4 py-2.5 ">
@@ -17,21 +17,21 @@ function Navbar() {
                     </button>
 
                     <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
-                        <ul class="flex flex-col mt-4 md:flex-row md:mt-0 md:text-xs md:font-medium">
+                        <ul class="flex flex-col mt-4 md:flex-row  md:mt-0 md:text-xs md:font-medium">
                             <li>
-                                <a href="#" class="block py-2 pr-4 pl-3  text-white border-0 hover:bg-yellow-400  mt-3 text-sm  font-semibold   rounded md:bg-transparent  p-4  hover:text-black" aria-current="page">Research</a>
+                                <a href="#" class="block py-2 pr-4 pl-3  text-white border-0 hover:bg-yellow-400  mt-3 text-sm  font-semibold   rounded md:bg-transparent  p-4  hover:text-black lg:text-sm " aria-current="page">Research</a>
                             </li>
                             <li>
-                                <a href="#" class="block py-2 pr-4 pl-3 text-white border-0 hover:bg-yellow-400  mt-3  text-sm font-semibold   rounded md:bg-transparent  p-4 hover:text-black">Use Cases</a>
+                                <a href="#" class="block py-2 pr-4 pl-3 text-white border-0 hover:bg-yellow-400  mt-3  text-sm font-semibold   rounded md:bg-transparent  p-4 hover:text-black lg:text-sm ">Use Cases</a>
                             </li>
                             <li>
-                                <a href="#" class="block py-2 pr-4 pl-3 text-white border-0 hover:bg-yellow-400  mt-3  text-sm font-semibold   rounded md:bg-transparent  p-4 hover:text-black">About</a>
+                                <a href="#" class="block py-2 pr-4 pl-3 text-white border-0 hover:bg-yellow-400  mt-3  text-sm font-semibold   rounded md:bg-transparent  p-4 hover:text-black lg:text-sm ">About</a>
                             </li>
                             <li>
-                                <a href="#" class="block py-2 pr-4 pl-3 text-white border-0 hover:bg-yellow-400  mt-3  text-sm font-semibold   rounded md:bg-transparent  p-4 hover:text-black">News</a>
+                                <a href="#" class="block py-2 pr-4 pl-3 text-white border-0 hover:bg-yellow-400  mt-3  text-sm font-semibold   rounded md:bg-transparent  p-4 hover:text-black lg:text-sm ">News</a>
                             </li>
                             <li>
-                                <a href="#" class="block py-2 pr-4 pl-3 text-white border-0 hover:bg-yellow-400  mt-3  text-sm font-semibold   rounded md:bg-transparent  p-4  hover:text-black">Contact</a>
+                                <a href="#" class="block py-2 pr-4 pl-3 text-white border-0 hover:bg-yellow-400  mt-3  text-sm font-semibold   rounded md:bg-transparent  p-4  hover:text-black lg:text-sm ">Contact</a>
 
                             </li>
                             <li>

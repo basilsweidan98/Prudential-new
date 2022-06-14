@@ -12,9 +12,13 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div className=' '>
+      <div>
       <Upperside />
-      <Lifeexpectancy />
+      </div>
+
+      <div className='container mx-auto '>
+      <Lifeexpectancy  />
       <Usecasecontainer />
       <Ourproduct />
       <Products />
@@ -23,7 +27,8 @@ function App() {
       <Percentagecontainer />
       <Readycontainer/>
       <Footer/>
-
+  
+      </div>
     </div>
   );
 }
