@@ -9,27 +9,29 @@ import Codecontainer from './components/Codecontainer';
 import Percentagecontainer from './components/Percentagecontainer';
 import Readycontainer from './components/Readycontainer';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className=' '>
-      <div>
-      <Upperside />
+    <>
+      <div className=" flex flex-col  bg-[url('images/image3.png')] bg-slate-700  bg-cover">
+        <Navbar  />
+        <Upperside />
       </div>
 
       <div className='container mx-auto '>
-      <Lifeexpectancy  />
-      <Usecasecontainer />
-      <Ourproduct />
-      <Products />
-      <Foundationcotainer />
-      <Codecontainer />
-      <Percentagecontainer />
-      <Readycontainer/>
-      <Footer/>
-  
+        <Lifeexpectancy />
+        <Usecasecontainer />
+        <Ourproduct />
+        <Products />
+        <Foundationcotainer />
+        <Codecontainer />
+        <Percentagecontainer />
+        <Readycontainer />
+        <Footer />
+
       </div>
-    </div>
+    </>
   );
 }
 
