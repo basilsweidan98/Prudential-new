@@ -10,12 +10,12 @@ function Prudentialleft() {
 //                 <p className="absolute text-xs lg:text-base lg:w-2/6 md:text-xs w-2/5 md:w-1/4 lg:ml-14 md:ml-10 ml-2 md:mt-3 mt-2  ">Expanded climate actions include carbon neutral target by 2040 and restriction on new direct investments in thermal coal.</p>
 // </div>
 //         </div>
-<div className='bg-sky-600 border h-full font-inter text-white lg:px-10 px-5  container'>
+<div className='bg-sky-600 border h-full font-inter text-white lg:px-10 px-5 '>
 <div >
 <p className='md:text-base text-xs  lg:text-2xl font-semibold lg:pt-40 pt-32 lg:pb-4 pb-2 '>
 Prudential Foundation’s giving surpasses $1 billion mark
 </p>
-<p className='text-xs md:text-sm lg:text-sm  font-light'>
+<p className='text-xs md:text-sm lg:text-sm  font-inter'>
 Expanded climate actions include carbon neutral target by 2040 and restriction on new direct investments in thermal coal.
 </p>
 </div>

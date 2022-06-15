@@ -8,7 +8,7 @@ import twitt from '../images/twitter.png';
 function Footer() {
     return (
 
-        <footer className="bg-gray-800 ">
+        <footer className="bg-gray-800 font-inter">
             <div className='py-2 px-10 bg-gray-800 md:flex md:items-center md:justify-between border-b '>
                 <dev className="flex gap-2 ">
                     <a href="#" className='rounded hover:bg-yellow-400  hover:text-black text-xs text-white font-semibold p-2'>Research</a>
